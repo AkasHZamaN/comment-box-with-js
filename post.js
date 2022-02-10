@@ -40,9 +40,11 @@ inputFiled.style.padding = '5px';
 // btn css using by JS
 const postBtn = document.getElementById('post-btn');
 postBtn.style.backgroundColor = 'lightblue';
+postBtn.style.fontWeight = '700';
+postBtn.style.fontSize = '16px';
 postBtn.style.border = 'none';
 postBtn.style.borderRadius = '10px';
 postBtn.style.color = 'darkslateblue';
 postBtn.style.marginTop = '10px';
-postBtn.style.padding = '5px 25px';
+postBtn.style.padding = '8px 30px';
 
