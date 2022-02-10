@@ -3,6 +3,8 @@ document.getElementById('post-btn').addEventListener('click',function(){
     const commentBox = document.getElementById('input-filed');
     // get user comments
     const userComment = commentBox.value;
+    //set commment box value null after post the content
+    commentBox.value = '';
     // create an html element
     const p = document.createElement('p');
     p.innerText = userComment;
@@ -31,6 +33,7 @@ commentContainer.style.margin = '10px';
 commentContainer.style.padding = '5px';
 // textarea css using by JS
 const inputFiled = document.getElementById('input-filed');
+inputFiled.innerText = '';
 inputFiled.style.border = '1px solid lightblue';
 inputFiled.style.borderRadius = '10px';
 inputFiled.style.padding = '5px';
@@ -42,3 +45,4 @@ postBtn.style.borderRadius = '10px';
 postBtn.style.color = 'darkslateblue';
 postBtn.style.marginTop = '10px';
 postBtn.style.padding = '5px 25px';
+
